@@ -285,10 +285,7 @@ input[type='text']:focus
     font-weight: bold;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     margin-left: 200px;
 }
 .join:hover {
@@ -319,3 +316,70 @@ input[type='text']:focus
     font-size: 20px;
     font-weight: bold;
 }
+/* css for tuvan */
+.tuvan{
+    text-align: center;
+    padding: 100px;
+}
+.tv{
+    background-color: yellow;
+    color: #000;
+    width: 500px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+.tuvan p{
+    font-size: 20px
+}
+.tuvan h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+/* css for lydo */
+.border{
+    columns: 2;
+    background-color: #4169e1;
+}
+.gach{
+    margin-left: 800px;
+}
+.lydo1,.lydo2,.lydo3,.lydo4,.lydo5,.lydo6{
+    float: left;
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 200px;
+    border: solid white;
+}
+.lydo{
+    
+    background-color: #3459c9;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.h{
+    font-weight: bold;
+}
+.h,.k{
+    text-align: left;
+    margin: 20px;
+}
+.nhantuvan{
+    background-color: #05a141;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    border-color: white;
+    margin: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nhantuvan:hover{
+    background-color: orange;
+}
+/* css for mutil slider */
+
