@@ -338,12 +338,14 @@ input[type='text']:focus
     font-weight: bold;
 }
 /* css for lydo */
-.border{
+.boder{
     columns: 2;
-    background-color: #4169e1;
+    /* background-color: #4169e1; */
+    
 }
 .gach{
     margin-left: 800px;
+    background-color: white;
 }
 .lydo1,.lydo2,.lydo3,.lydo4,.lydo5,.lydo6{
     float: left;
@@ -352,13 +354,27 @@ input[type='text']:focus
     margin: 20px;
     margin-left: 200px;
     border: solid white;
+    display: flex;
+}
+.lydo1,.lydo2,.lydo3{
+    margin-left: 360px;
+}
+.lydo4,.lydo5,.lydo6{
+    margin-left: 10px;
 }
 .lydo{
-    
-    background-color: #3459c9;
+    background: linear-gradient(#5a76b1 10%, #C9DCB9 70%, #084891 90%);
     text-align: center;
     color: white;
     padding: 30px;
+}
+.lydo img{
+  width: 20%;
+  height: auto;
+  margin-left: 10px;
+}
+.title{
+    width: 75%;
 }
 .h{
     font-weight: bold;
@@ -377,6 +393,7 @@ input[type='text']:focus
     margin: 50px;
     font-weight: bold;
     font-size: 20px;
+    margin-left: 0px;
 }
 .nhantuvan:hover{
     background-color: orange;
@@ -413,5 +430,21 @@ font-weight: bold;
 .row{
     margin-left: 100px;
 }
-
-
+.xemthem{
+    border-radius: 6px;
+    background-color: #2575fc;
+    color: white;
+    border:none;
+    width: 120px;
+    height: 35px;
+}
+.xemthem:hover{
+    background-color: #0b249e;
+}
+.time{
+    color: #0b249e;
+}
+.hrtintuc{
+    color: orangered;
+    margin-left: 680px;
+}
